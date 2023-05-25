@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
-
-
+    <item
+        android:id="@+id/englishSelection"
+        android:orderInCategory="100"
+        android:title="@string/englishSelection" />
+    <item
+        android:id="@+id/chineseSelection"
+        android:orderInCategory="101"
+        android:title="@string/chineseSelection" />
 </menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的本地銀行</string>
+    <string name="bank1">星展银行</string>
+    <string name="bank2">华侨银行</string>
+    <string name="bank3">大华银行</string>
+    <string name="website">網站</string>
+    <string name="contactBank">聯繫銀行</string>
+    <string name="englishSelection">英語 (English)</string>
+    <string name="chineseSelection">中文</string>
+    <string name="toggleFavourite">切換收藏夾</string>
+    <string name="bank1Website">https://www.dbs.com.sg</string>
+    <string name="bank2Website">https://www.ocbc.com</string>
+    <string name="bank3Website">https://www.uob.com.sg</string>
+    <string name="bank1No">18001111111</string>
+    <string name="bank2No">18003633333</string>
+    <string name="bank3No">18002222121</string>
+</resources>

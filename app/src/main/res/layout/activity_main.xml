@@ -5,4 +5,24 @@
     android:orientation="vertical">
 
 
+    <Button
+        android:id="@+id/bankBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/bank1" />
+
+    <Button
+        android:id="@+id/bankBtn2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/bank2" />
+
+    <Button
+        android:id="@+id/bankBtn3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/bank3" />
 </LinearLayout>
