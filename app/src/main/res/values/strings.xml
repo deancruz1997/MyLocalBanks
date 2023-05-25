@@ -6,7 +6,7 @@
     <string name="website">Website</string>
     <string name="contactBank">Contact the Bank</string>
     <string name="englishSelection">English</string>
-    <string name="chineseSelection">Chinese</string>
+    <string name="chineseSelection">Chinese (中文)</string>
     <string name="toggleFavourite">Toggle Favourite</string>
     <string name="bank1Website">https://www.dbs.com.sg</string>
     <string name="bank2Website">https://www.ocbc.com</string>
@@ -14,4 +14,9 @@
     <string name="bank1No">18001111111</string>
     <string name="bank2No">18003633333</string>
     <string name="bank3No">18002222121</string>
+    <string name="mylocalbanks">My Local Banks App</string>
+    <string name="welcome">Welcome,</string>
+    <string name="guest">Guest</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>

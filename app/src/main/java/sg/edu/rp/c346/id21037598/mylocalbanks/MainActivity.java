@@ -13,13 +13,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
 
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
     // Initialize variables
-    Button bankBtn1, bankBtn2, bankBtn3;
+    ImageButton bankBtn1, bankBtn2, bankBtn3;
+    TextView bankName1, bankName2, bankName3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +34,14 @@ public class MainActivity extends AppCompatActivity {
         bankBtn2 = findViewById(R.id.bankBtn2);
         bankBtn3 = findViewById(R.id.bankBtn3);
 
+        bankName1 = findViewById(R.id.bankName1);
+        bankName2 = findViewById(R.id.bankName2);
+        bankName3 = findViewById(R.id.bankName3);
+
         // Set text color to be modified later
-        bankBtn1.setTextColor(Color.BLACK);
-        bankBtn2.setTextColor(Color.BLACK);
-        bankBtn3.setTextColor(Color.BLACK);
+        bankName1.setTextColor(Color.BLACK);
+        bankName2.setTextColor(Color.BLACK);
+        bankName3.setTextColor(Color.BLACK);
 
         // Add buttons to context menu
         registerForContextMenu(bankBtn1);
@@ -94,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
 
             } else if (itemId == 2) {
-                changeButtonTextColor(bankBtn1);
+                changeButtonTextColor(bankName1);
 
             }
 
@@ -110,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
 
             } else if (itemId == 2) {
-                changeButtonTextColor(bankBtn2);
+                changeButtonTextColor(bankName2);
             }
 
         } else if (groupId == 2) {
@@ -125,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentCall);
 
             } else if (itemId == 2) {
-                changeButtonTextColor(bankBtn3);
+                changeButtonTextColor(bankName3);
 
             }
         }
@@ -134,12 +141,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Changes color of button text
-    public void changeButtonTextColor(Button button) {
-        if (button.getCurrentTextColor() == Color.RED) {
-            button.setTextColor(Color.BLACK);
+    public void changeButtonTextColor(TextView textView) {
+        if (textView.getCurrentTextColor() == Color.RED) {
+            textView.setTextColor(Color.BLACK);
 
-        } else if (button.getCurrentTextColor() == Color.BLACK) {
-            button.setTextColor(Color.RED);
+        } else if (textView.getCurrentTextColor() == Color.BLACK) {
+            textView.setTextColor(Color.RED);
         }
     }
 

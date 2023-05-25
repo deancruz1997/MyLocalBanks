@@ -15,4 +15,9 @@
     <string name="bank1No">18001111111</string>
     <string name="bank2No">18003633333</string>
     <string name="bank3No">18002222121</string>
+    <string name="mylocalbanks">本地銀行</string>
+    <string name="welcome">歡迎,</string>
+    <string name="guest">來客</string>
+    <string name="login">登錄</string>
+    <string name="register">註冊</string>
 </resources>
